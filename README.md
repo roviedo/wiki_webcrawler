@@ -68,7 +68,7 @@ We can see a pattern that leads to philosophy Education -> Learning -> Knowledge
 * Pages that lead to Philosophy seem kind of low, need to debug parser and verify:
     * That I'm retrieving the correct href
     * That my parenthesis matching is either too strict or that it is working properly.
-    * Some pages don't have a <b> tag so need to find link inside other element tags e.g. <span>
+    * Some pages don't have a `<b>` tag so need to find link inside other element tags e.g. `<span>`
 * Had to set a threshold do to sometimes it would go back and forth between two articles leading to infinite recursion.
 * Also, some pages are not found returning a 404 e.g. https://en.wikipedia.org/wiki/Tax_break
 * If the element retrieved is a something other than a webpage e.g. png, then we get an urllib Error as well.
